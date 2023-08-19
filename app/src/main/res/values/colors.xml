@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pink">#FF0999</color>
+    <color name="orange">#FF7800</color>
+    <color name="peach">#FF7870</color>
+    <color name="lightpink">#FF7890</color>
+    <color name="musturd">#FF9810</color>
+    <color name="green">#FF189210</color>
+    <color name="blue">#FF187889</color>
+    <color name="bluedark">#FF145690</color>
+    <color name="purplelight">#FFBB86FC</color>
+
+
+</resources>
