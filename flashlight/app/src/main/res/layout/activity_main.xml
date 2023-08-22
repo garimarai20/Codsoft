@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colourblack"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textFlashlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="casual"
+        android:text="FLASHLIGHT"
+        android:textAlignment="center"
+        android:textColor="@color/colourWhite"
+        android:textSize="50sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="600dp"
+        android:src="@drawable/on"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/toggleButton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="1000dp"
+        android:layout_marginTop="1100dp"
+        android:backgroundTint="@color/design_default_color_primary_variant"
+        android:onClick="toggleFlashlight"
+        android:text="Flashlight"
+        app:cardCornerRadius="200dp">
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/button"
+
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
